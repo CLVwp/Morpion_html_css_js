@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morpion</title>
+  <link rel="stylesheet" href="tp.css">
+</head>
+<body>
+<div id="container">
+  <h1>Jeu de Morpion</h1>
+  <div id="gameGrid">
+    <div class="gridSquare" id="square1"></div>
+    <div class="gridSquare" id="square2"></div>
+    <div class="gridSquare" id="square3"></div>
+    <div class="gridSquare" id="square4"></div>
+    <div class="gridSquare" id="square5"></div>
+    <div class="gridSquare" id="square6"></div>
+    <div class="gridSquare" id="square7"></div>
+    <div class="gridSquare" id="square8"></div>
+    <div class="gridSquare" id="square9"></div>
+  </div>
+  <div id="gameInfo">
+    <div id="scoreboard">
+      <p>Score :</p>
+      <p>Bleu : <span id="score_bleu">0</span> | Rouge : <span id="score_rouge">0</span></p>
+      <p id="vainqueur"></p>
+    </div>
+
+    <button id="newGameBtn">Nouvelle partie</button>
+  </div>
+</div>
+
+
+<script src="tp.js"></script>
+</body>
+</html>
